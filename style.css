@@ -1,0 +1,62 @@
+h3 {
+    color: aquamarine;
+}
+
+
+body {
+    background-color: #E8B742;
+    color: #2B29E8;
+}
+
+.tabletroll span{
+    width: 25%;
+    border: 1px solid black;
+}
+
+.tabletroll {
+    border: 1px solid black;
+}
+
+.slideright {
+    float: right;
+}
+
+.slideleft {
+    float: left;
+}
+
+ul {
+    list-style: none;
+}
+li {
+    text-align: center;
+    width: 50%;
+}
+
+li:nth-child(2n) {
+    border: 1px solid red;
+}
+li:nth-child(2n+1) {
+    color: #56FF7B;
+    border: 1px solid purple;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+#catattack {
+    text-align: center;
+    background-size: contain;
+    width: 600px;
+    height: 600px;
+    border: 1px solid blue;
+}
+
+#catattack:hover text{
+    display: none;
+}
+
+#catattack:hover {
+    background-image: url("winniewinnie.jpg")
+}
